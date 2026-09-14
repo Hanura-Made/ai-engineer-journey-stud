@@ -1,15 +1,17 @@
-Prompt Engineering #2
+# Prompt Engineering #2
 
-Eksperimen sederhana untuk memahami bagaimana perubahan struktur prompt memengaruhi respons LLM.
+A simple experiment to understand how changes in prompt structure affect LLM responses.
 
-What I Learned
+## What I Learned
 
-Menguji prompt secara bertahap:
+Experimenting with prompts incrementally:
 
+```text
 V1 → Basic
 V2 → + Role
 V3 → + Context
 V4 → + Constraints
 V5 → + Output Format
+```
 
-Setiap versi menggunakan topic dan task yang sama, kemudian dibandingkan untuk melihat perbedaan hasilnya.
+Each version uses the same **topic** and **task**, then the results are compared to observe how each prompting technique affects the output.
